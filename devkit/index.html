@@ -30,56 +30,160 @@
   <div class="dynamic_sheet_container">
   
     <!-- Every dynamic sheet will be surrounded by a div that has the class of "ds_DST_SLUG". In this example, the slug for my DST is 'minimal4e' -->
-    <div id="dynamic_sheet_999" class="dynamic_sheet ds_minimal4e editable">
+    <div id="dynamic_sheet_999" class="dynamic_sheet ds_mrtact_fireflyrpg editable">
       <!-- This is inserted automatically. Ignore it... -->
-      <span style="display:none;" class="dst_slug">minimal4e</span>
-      <!-- 
-      Below is your HTML template.
-      Copy ONLY this section into the HTML Template textarea on Obsidian Portal. Do not copy any of the
-      surrounding HTML!
-      -->
-      <div class="basic_info">
-        <h3>Basic Info</h3>
-        <div class="name">
-          <span>Name:</span>
-          <span class="dsf dsf_name"></span>
+    <span style="display:none;" class="dst_slug">minimal4e</span>
+    <!-- 
+    Below is your HTML template.
+    Copy ONLY this section into the HTML Template textarea on Obsidian Portal. Do not copy any of the
+    surrounding HTML!
+    -->
+    <div class="section firefly_attributes fullwidth">
+        <h3>Attributes</h3>
+        <div class="attribute">
+            <span class="stat_name">Mental</span>
+            <span class="dsf dsf_mental dice_value">8</span>
         </div>
-        <div class="player">
-          <span>Player:</span>
-          <span class="dsf dsf_player"></span>
+        <div class="attribute">
+            <span class="stat_name">Physical</span>
+            <span class="dsf dsf_physical dice_value">8</span>
         </div>
-        <div class="campaign">
-          <span>Campaign:</span>
-          <span class="dsf dsf_campaign"></span>
+        <div class="attribute">
+            <span class="stat_name">Social</span>
+            <span class="dsf dsf_social dice_value">8</span>
         </div>
-        <div class="level">
-          <span>Level:</span>
-          <span class="dsf dsf_level"></span>
-        </div>
+    </div>
+
+      <div class="section fullwidth firefly_skills">
+          <h3>Skills</h3>
+          <div class="group firefly_skills">
+            <table><tbody>
+            <tr>
+                <td><span class="stat_name">Craft</span> 
+                  <span class="dsf dsf_craft dice_value dice_small">8</span>
+                  <span class="dsf dsf_craft_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Know</span> 
+                  <span class="dsf dsf_know dice_value dice_small">4</span>
+                  <span class="dsf dsf_know_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Sneak</span> 
+                  <span class="dsf dsf_sneak dice_value dice_small">4</span>
+                  <span class="dsf dsf_sneak_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Drive</span> 
+                  <span class="dsf dsf_drive dice_value dice_small">10</span>
+                  <span class="dsf dsf_drive_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Labor</span> 
+                  <span class="dsf dsf_labor dice_value dice_small">4</span>
+                  <span class="dsf dsf_labor_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Survive</span> 
+                  <span class="dsf dsf_survive dice_value dice_small">4</span>
+                  <span class="dsf dsf_survive_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Fight</span>
+                  <span class="dsf dsf_fight dice_value dice_small">6</span>
+                  <span class="dsf dsf_fight_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Move</span> 
+                  <span class="dsf dsf_move dice_value dice_small">4</span>
+                  <span class="dsf dsf_move_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Throw</span> 
+                  <span class="dsf dsf_throw dice_value dice_small">4</span>
+                  <span class="dsf dsf_throw_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Fix</span> 
+                  <span class="dsf dsf_fix dice_value dice_small">4</span>
+                  <span class="dsf dsf_fix_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Notice</span> 
+                  <span class="dsf dsf_notice dice_value dice_small">4</span>
+                  <span class="dsf dsf_notice_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Treat</span> 
+                  <span class="dsf dsf_treat dice_value dice_small">4</span>
+                  <span class="dsf dsf_treat_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Fly</span> 
+                  <span class="dsf dsf_fly dice_value dice_small">4</span>
+                  <span class="dsf dsf_fly_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Operate</span> 
+                  <span class="dsf dsf_operate dice_value dice_small">4</span>
+                  <span class="dsf dsf_operate_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Trick</span> 
+                  <span class="dsf dsf_trick dice_value dice_small">4</span>
+                  <span class="dsf dsf_trick_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Focus</span> 
+                  <span class="dsf dsf_focus dice_value dice_small">4</span>
+                  <span class="dsf dsf_focus_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Perform</span> 
+                  <span class="dsf dsf_perform dice_value dice_small">4</span>
+                  <span class="dsf dsf_perform_speciality skill_specialty"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td><span class="stat_name">Influence</span> 
+                  <span class="dsf dsf_influence dice_value dice_small">4</span>
+                  <span class="dsf dsf_influence_speciality skill_specialty"></span>
+                </td>
+
+                <td><span class="stat_name">Shoot</span> 
+                  <span class="dsf dsf_shoot dice_value dice_small">4</span>
+                  <span class="dsf dsf_shoot_speciality skill_specialty"></span>
+                </td>
+            </tr>
+            </tbody></table>
+          </div>
       </div>
 
-      <div class="ability_scores">
-        <h3>Ability Scores</h3>
-        <div class="ability_score_header">
-          <span>Ability</span>
-          <span>Score</span>
-          <span>Mod</span>
-          <span>Mod + 1/2 Level</span>
-        </div>
-        <div class="ability_score strength">
-          <span class="ability_score_name">STR</span>
-          <span class="dsf ability_score_score dsf_str"></span>
-          <span class="dsf ability_score_modifier dsf_str_modifier"></span>
-          <span class="dsf ability_score_modifier_plus_half_level dsf_str_modifier_plus_half_level"></span>
-        </div>
-        <div class="ability_score dexterity">
-          <span class="ability_score_name">DEX</span>
-          <span class="dsf ability_score_score dsf_dex"></span>
-          <span class="dsf ability_score_modifier dsf_dex_modifier"></span>
-          <span class="dsf ability_score_modifier_plus_half_level dsf_dex_modifier_plus_half_level"></span>
-        </div>
-      </div>
-      
+      <div class="section firefly_distinctions fullwidth">
+          <h3>Distinctions</h3>
+
+          <div class="firefly_distinction firefly_distinct1">
+              <h4><span class="dsf dsf_distinction1_title">Invisible Ops</span></h4>
+              <p class="firefly_distinction_lore"><span class="dsf dsf_distinction1_lore">I could tell you what I do, but then I&apos;d have to kill you and everyone on this ship and I do hate making a mess.</span></p>
+              <ul>
+                  <li>Gain 1 Plot Point when you roll a d4 instead of a d8.</li>
+                  <li><span class="dsf dsf_distinction1_trigger2_enabled check"></span><span class="dsf dsf_distinction1_trigger2_title">All Access</span>: <span class="dsf dsf_distinction1_trigger2_desc">When you attempt to bypass physical security, double Operate for the Action.</span></li>
+                  <li><span class="dsf dsf_distinction1_trigger3_enabled check"></span><span class="dsf dsf_distinction1_trigger3_title"></span>: <span class="dsf dsf_distinction1_trigger3_desc"></span></li>
+              </ul>
+              <p class="firefly_distinction_skills">Highlighted Skills: <span class="dsf dsf_distinction1_skills">Move, Shoot, Sneak</span></p>
+          </div>
+      </div>      
       <!-- An example of how to use checkboxes -->
       <div class="trained_skills">
         <h3>Trained Skills</h3>
