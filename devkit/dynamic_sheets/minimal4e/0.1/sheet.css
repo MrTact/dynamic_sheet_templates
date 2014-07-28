@@ -26,6 +26,7 @@
   background-color: darkslategray;
   width: 100%;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   padding: 2px 0px 2px 8px;
   margin-bottom: 0.5em;
 }
