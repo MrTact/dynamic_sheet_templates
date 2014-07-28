@@ -1,16 +1,15 @@
-/****************************
-* This is the CSS for the DST.
-* Copy and paste this directly into the CSS textarea on obsidianportal.com
-*****************************/
+/*========================================
+    CSS for the Firefly RPG barebones DST.
+  ========================================*/
 
 /*
-  Font imports
+    Font imports
 */
 @import url(http://fonts.googleapis.com/css?family=Krona+One);
 @import url(http://fonts.googleapis.com/css?family=Armata);
 
 /*
-  Structural elements
+    Structural elements
 */
 
 .ds_mrtact_fireflyrpg {
@@ -63,7 +62,7 @@
 }
 
 /*
-  Attributes
+    Attributes
 */
 
 .firefly_attributes {
@@ -77,7 +76,7 @@
 }
 
 /*
-  Skills
+    Skills
 */
 
 .firefly_skills {
