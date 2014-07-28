@@ -80,8 +80,13 @@
 */
 
 .firefly_skills {
-    height: 19em;
+    height: 21em;
     width: 100%;
+}
+
+.firefly_skills > div {
+  align-items: baseline;
+  -webkit-align-items: baseline;
 }
 
 .dice_value {
@@ -95,7 +100,7 @@
 }
 
 .skill_specialty {
-    font-size: small;
+    font-size: 0.6em;
     font-style: italic;
     color: maroon;
 }
@@ -121,6 +126,10 @@
     margin-top: 2px;
     margin-bottom: 0.5em;
     font-style: italic;
+}
+
+.firefly_distinction_title {
+  font-style: italic;
 }
 
 .firefly_distinction ul {
