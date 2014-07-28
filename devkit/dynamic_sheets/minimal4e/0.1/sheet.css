@@ -3,65 +3,109 @@
 * Copy and paste this directly into the CSS textarea on obsidianportal.com
 *****************************/
 
+/*
+  Font imports
+*/
+@import url(http://fonts.googleapis.com/css?family=Krona+One);
+@import url(http://fonts.googleapis.com/css?family=Armata);
 
-/****************************
-* Basic Info
-*****************************/
-.ds_minimal4e .level {
+/*
+  Structural elements
+*/
+
+.ds_mrtact_fireflyrpg {
+  font-family: 'Armata', sans-serif;
+  font-weight: 400;
 }
 
-/****************************
-* Ability Scores
-*****************************/
-.ds_minimal4e .ability_scores {
-  margin-top: 30px;
+.ds_mrtact_fireflyrpg h3 {
+  font-family: 'Krona One', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 0.5em;
 }
 
-.ds_minimal4e .ability_score {
+.ds_mrtact_fireflyrpg .section {
   clear: left;
 }
 
-.ds_minimal4e .ability_score_header span {
-  display: block;
+.ds_mrtact_fireflyrpg .section > div {
+  padding: 0 8px;
+}
+
+.stat_name {
   float: left;
-  width: 120px;
+  width: 8em;
+}
+
+.three_col {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: column wrap;
+    -webkit-flex-flow: column wrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+.three_col div {
+    width: 33%;
+    border-right: solid white 12px;
+    border-bottom: 1px solid black;
+    padding-top: 1em;
+}
+
+.statbox {
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row nowrap;
+    -webkit-flex-flow: row nowrap;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+}
+
+/*
+  Attributes
+*/
+
+.firefly_attributes {
+    height: 3em;
+}
+
+.ds_mrtact_fireflyrpg .attribute {
+  float: left;
+  padding-top: .5em;
+  margin-bottom: 1em;
+}
+
+/*
+  Skills
+*/
+
+.dice_value {
+  font-family: 'Krona One', sans-serif;
+  font-size: 1.5em;
   font-weight: bold;
-}
-
-.ds_minimal4e .ability_score_name {
-  display: block;
+  width: 2em;
+  text-align: center;
   float: left;
-  width: 120px;
-  font-weight: bold;
+  padding-right: .3em;
+  margin-top: -6px;
 }
 
-.ds_minimal4e .ability_score_score {
-  display: block;
-  float: left;
-  width: 120px;
+.firefly_skills {
+    height: 20em;
 }
 
-.ds_minimal4e .ability_score_modifier {
-  display: block;
-  float: left;
-  width: 120px;
+.skill_specialty {
+    font-size: small;
+    font-style: italic;
+    color: maroon;
 }
 
-.ds_minimal4e .ability_score_modifier_plus_half_level {
-  display: block;
-  float: left;
-  width: 120px;
-}
 
-/****************************
-* Ability Scores
-*****************************/
 
-.ds_minimal4e .trained_skills {
-  margin-top: 30px;
-  clear: both;
-}
 
-.ds_minimal4e .trained_skills ul {
-  list-style-type: none;
-}
