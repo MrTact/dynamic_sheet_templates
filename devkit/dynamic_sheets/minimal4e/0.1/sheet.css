@@ -5,8 +5,8 @@
 /*
     Font imports
 */
-@import url(http://fonts.googleapis.com/css?family=Krona+One);
-@import url(http://fonts.googleapis.com/css?family=Armata);
+@import url(https://fonts.googleapis.com/css?family=Krona+One);
+@import url(https://fonts.googleapis.com/css?family=Armata);
 
 /*
     Structural elements
@@ -21,7 +21,7 @@
 .ds_mrtact_fireflyrpg h3 {
   font-family: 'Krona One', sans-serif;
   font-weight: bold;
-  color: white;
+  color: white !important;
   background-color: darkslategray;
   width: 100%;
   text-transform: uppercase;
@@ -35,7 +35,7 @@
 }
 
 .stat_name {
-  width: 8em;
+  width: 5em;
 }
 
 .three_col {
